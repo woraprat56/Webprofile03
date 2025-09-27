@@ -1,0 +1,389 @@
+     @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      body {
+        margin: 0;
+        font-family: "Raleway", sans-serif;
+        background-color: #001147;
+        color: #fff;
+      }
+      header {
+        background-color: #010c3a;
+        padding: 20px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header h1 {
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-family: Bebas Neue;
+      }
+      header nav a {
+        color: #fff;
+        margin-left: 25px;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Inter;
+      }
+      .hero {
+        max-width: 1200px;
+        margin: 60px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 40px;
+        background-color: #001147;
+        border-radius: 12px;
+      }
+      .hero-text {
+        flex: 1 1 450px;
+      }
+      .hero-text h1 {
+        font-size: 60px;
+        line-height: 1.1;
+        margin: 0 0 20px;
+        font-weight: 700;
+        font-family: Bebas Neue;
+      }
+      .hero-text p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        color: #d0d4e0;
+        font-family: Prompt;
+      }
+      .buttons {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .contact-btn {
+        display: inline-block;
+        padding: 12px 26px;
+        background: linear-gradient(to right, #4a8bff, #5fa9ff);
+        color: #000b3a;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 30px;
+        font-size: 14px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        font-family: Prompt;
+      }
+      .icon-btn {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        background: #1a1a1a;
+        border-radius: 50%;
+        color: #7a99e9;
+        font-size: 18px;
+        text-decoration: none;
+        transition: background 0.3s;
+      }
+      .icon-btn:hover {
+        background: #333;
+      }
+      .hero-image {
+        flex: 1 1 350px;
+        display: flex;
+        justify-content: center;
+      }
+      .hero-image img {
+        width: 350px;
+        height: 450px;
+        border-radius: 20px;
+        object-fit: cover;
+      }
+      .about {
+        max-width: 1200px;
+        margin: 60px auto;
+        padding: 40px;
+        background-color: #001147;
+        border-radius: 12px;
+      }
+      .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        align-items: flex-start;
+      }
+      .about-text {
+        flex: 1 1 30%;
+        font-size: 25px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-right: 20px;
+        font-family: Bebas Neue;
+      }
+      .about-right {
+        flex: 1 1 60%;
+        padding-left: 200px;
+        max-width: 1000px;
+      }
+      .about-text h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-family: Bebas Neue;
+      }
+      .about-content .intro {
+        font-size: 1.5rem;
+        line-height: 2;
+        margin-bottom: 20px;
+        font-family: Prompt;
+      }
+      .about-content .detail {
+        font-size: 1rem;
+        line-height: 1.7;
+        margin-bottom: 25px;
+        font-family: Prompt;
+      }
+      .about-buttons {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 30px;
+        font-family: Prompt;
+      }
+      .download-btn {
+        display: inline-block;
+        padding: 12px 26px;
+        background: #7a99e9;
+        color: #0a0a0a;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 30px;
+        font-size: 14px;
+        font-family: Prompt;
+      }
+      .about-icon-btn {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        background: #1a1a1a;
+        border-radius: 50%;
+        color: #7a99e9;
+        font-size: 18px;
+        text-decoration: none;
+        transition: background 0.3s;
+      }
+      .about-icon-btn:hover {
+        background: #333;
+      }
+      .about-image {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      .about-image img {
+        width: 100%;
+        border-radius: 20px;
+        display: block;
+      }
+      .capa {
+        max-width: 1200px;
+        margin: 60px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 40px;
+        background-color: #001147;
+        border-radius: 12px;
+      }
+      .capa-section {
+        flex: 1 1 30%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-right: 20px;
+      }
+      .capa-section h1 {
+        font-size: 70px;
+        font-weight: bold;
+        margin: 0;
+        font-family: Bebas Neue;
+      }
+      .capa-right {
+        flex: 1 1 70%;
+        max-width: 700px;
+      }
+      .capa-right .capa-text {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        font-family: Prompt;
+      }
+      .capa-skill {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+      .capa-skill span {
+        border: 1px solid #ffffff;
+        border-radius: 50px;
+        padding: 8px 20px;
+        font-size: 0.95rem;
+        text-transform: uppercase;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      .capa-skill span:hover {
+        background-color: #ffffff;
+        color: #011147;
+      }
+      .experience {
+        max-width: 1200px;
+        margin: 60px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 40px;
+        background-color: #001147;
+        border-radius: 12px;
+      }
+      .exp-section {
+        flex: 1 1 30%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-right: 20px;
+      }
+      .exp-section h1 {
+        font-size: 65px;
+        font-weight: bold;
+        margin: 0;
+        font-family: Bebas Neue;
+      }
+      .exp-right {
+        flex: 1 1 70%;
+        max-width: 700px;
+      }
+      .job {
+        margin-bottom: 40px;
+      }
+      .job-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+      }
+      .job-header h3 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin: 0;
+        font-family: Manrope;
+      }
+      .job-header .date {
+        font-size: 0.95rem;
+        color: #ccc;
+        font-family: Manrope;
+      }
+      .job .jdetail {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-top: 10px;
+        font-family: Manrope;
+      }
+      .contactme {
+        max-width: 1200px;
+        margin: 60px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 40px;
+        background-color: #001147;
+        border-radius: 12px;
+      }
+      .contact-head {
+        flex: 1;
+        padding-right: 0px;
+      }
+      .contact-head h1 {
+        font-size: 70px;
+        margin-bottom: 20px;
+        font-family: Bebas Neue;
+      }
+      .contact-head p {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      .contact-head a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .contact-icon {
+        margin-top: 20px;
+      }
+      .contact-icon a {
+        margin-right: 15px;
+        font-size: 24px;
+        color: #7398e3;
+        transition: color 0.3s;
+      }
+      .contact-right {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+      }
+      form {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      label {
+        color: white;
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-family: Manrope;
+      }
+      input,
+      textarea {
+        background-color: #060135;
+        border: none;
+        border-radius: 4px;
+        padding: 12px;
+        margin-bottom: 20px;
+        color: #ffffff;
+        font-size: 1rem;
+      }
+      textarea {
+        resize: none;
+      }
+      button {
+        background-color: #7398e3;
+        color: #011147;
+        border: none;
+        border-radius: 25px;
+        padding: 12px 30px;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        align-self: flex-start;
+        transition: background-color 0.3s;
+      }
+      button:hover {
+        background-color: #ffffff;
+      }
+      hr {
+        border: none;
+        border-top: 0.2px solid #6e6e6e86;
+        margin: 20px 0;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .createdby {
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        font-family: Prompt;
+      }
